@@ -11,6 +11,7 @@ class Application
       resp.write "Good AFternoon!"
     end
 
+    resp.write "\n#{env}"
     resp.finish
   end
 end
